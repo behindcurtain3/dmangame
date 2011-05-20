@@ -59,7 +59,7 @@ class KillNCapture(ai.AI):
                 self.torandom[unit] = False
         except KeyError:
             pass
-
+  
         if not self.prey(unit):
             if self.torandom[unit]:
                 unit.move(self.squares[unit])
