@@ -249,7 +249,7 @@ class World:
 
 
     def __initStats(self):
-      self.unit_stats = Stats.adjustStatsForMap(map_settings)
+      self.unit_stats = Stats.aiVisibleSettings(map_settings)
 
 
     def placeRandomBuilding(self):
